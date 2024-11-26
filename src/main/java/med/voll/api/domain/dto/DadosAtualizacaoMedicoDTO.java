@@ -1,0 +1,17 @@
+package med.voll.api.domain.dto;
+
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Pattern;
+
+public record DadosAtualizacaoMedicoDTO(
+
+        @NotNull
+        Long id,
+
+        String nome,
+
+        @Pattern(regexp = "\\d{11}", message = "Formato do telefone é inválido")
+        String telefone,
+
+        EnderecoCompletoDTO endereco) {
+}
