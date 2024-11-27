@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.voll.api.domain.validacoes.cancelamento.MotivoCancelamento;
+import med.voll.api.domain.enums.MotivoCancelamento;
 
 import java.time.LocalDateTime;
 

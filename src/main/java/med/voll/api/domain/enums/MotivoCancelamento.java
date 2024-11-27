@@ -1,4 +1,4 @@
-package med.voll.api.domain.validacoes.cancelamento;
+package med.voll.api.domain.enums;
 
 public enum MotivoCancelamento {
 
